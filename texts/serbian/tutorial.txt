@@ -1,0 +1,12 @@
+Ti si igrac koji je prikazan sa znakom: @
+Slobodan prostor je prikazan sa znakom: *
+Zidovi su prikazani sa znakom: #
+Uvek pocinjes na ulazu u nivo: U
+I napustas ga na: I
+To je to! Jedan se poen dobija za prelazak jednog nivoa.
+Bonus poeni su moguci.
+
+Tokom puta se mogu desiti... nezgode.
+Nista strasno, ozbiljno. Kunem se :)
+
+Pomoc tokom igranja postoji. Samo ukucaj "help".

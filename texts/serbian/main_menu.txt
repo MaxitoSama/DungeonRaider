@@ -1,0 +1,5 @@
+Odlicno! Nego, reci mi...
+Da li si hrabri avanturista koji jedva ceka da opustosi jednu od najtezih tamnica Sveta!? (n, new)
+ILI si kukavica koja pobegne cim vidi avanturu? (q, quit)
+
+.. takodje mozes promeniti jezik (c, language)

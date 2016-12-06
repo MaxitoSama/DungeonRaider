@@ -1,0 +1,2 @@
+[You can type one of two things in brackets to execute command.]
+[You need to press ENTER after every command]

@@ -1,0 +1,2 @@
+[Mozes ukucati jednu od dve opcije ponudjene u zagradama pored teksta.]
+[Takodje moras pritisnuti ENTER posle svake komande]
