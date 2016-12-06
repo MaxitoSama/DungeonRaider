@@ -43,16 +43,21 @@ void Game::waitForInput() {
 Game::Game()
 {
 	m_quitSignal = false;
-	m_activeScene = "main_menu";
+	m_activeScene = SceneType::MENU;
 	displayMainMenu();
 }
 
+#include "Utility.h"
 void Game::displayMainMenu() {
-	cout << "/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\" << endl;
-	cout << endl;
-	cout << "					WELCOME TO DUNGEON RAIDER!" << endl;
-	cout << endl;
-	cout << "/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\" << endl;
+	//cout << "/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\" << endl;
+	//cout << endl;
+	//cout << "					WELCOME TO DUNGEON RAIDER!" << endl;
+	//cout << endl;
+	//cout << "/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*/*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\*\\" << endl;
+	string line, name;
+	line = "";
+	name = "../texts/english/game_name.txt";
+	Utility::ParseText(line, name);
 	cout << endl;cout << endl;cout << endl;
 	cout << "You are brave adventurer who is about to enter the BIG DUNGEON! (n, new)" << endl;
 	cout << "OR are you a coward who runs away at small glance at the adventure? (q, quit)" << endl;
@@ -73,4 +78,23 @@ void Game::parseInput(string input)
 	if (m_activeScene == SceneType::LEVEL) {
 	
 	}
+}
+
+bool Game::initialize() {
+
+	m_textFiles[MAX_GAME_FILES] = {
+		"choose_language.txt",
+		"command_input.txt",
+		"game_name.txt",
+		"main_menu.txt",
+		"main_menu_help.txt",
+		"player_name.txt",
+		"tutorial.txt",
+		"game_over.txt",
+		"high_score.txt",
+		"legend.txt"
+	};
+	m_serbianTextFilePath = "..\\texts\\serbian\\";
+	m_englishTextFilePath = "..\\texts\\english\\";
+	m_levelsFilePath = "..\\levels\\";
 }

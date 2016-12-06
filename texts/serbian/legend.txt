@@ -1,0 +1,31 @@
+@ - to si ti, igrac
+
+Objekti:
+--------
+# - zid, neprelazan.
+* - slobodno mesto.
+U - ulaz, pocinjes ovde.
+I - izlaz iz nivoa; tvoj cilj; dobijas jedan poen nakon ispunjenja.
+O - rupa; moze se preci preko nje ali postoji sansa da upadnes u nju (smrt).
+  - Sansa raste ako te neko juri.
+B - blago; dobijas jedan poen ako ga otvoris.
+
+Neprijatelji:
+--------
+z - glupi zombi; vidi 2 mesta; juri 5 rundi pa onda pauzira jednu.
+Z - manje glup zombi; vidi 4 mesta; juri 10 rundi pa onda pauzira jednu.
+L - mrtvi mag - litch; vidi 8 mesta oko sebe; puca 7 mesta oko sebe;
+  - juri te beskonacno; Moze da puca u svakom pravcu cak i dijagonalno.
+  - krece se ko i drugi. Kada puca, postoji sansa da izbegnes napad.
+    
+Mehanika igre:
+--------------
+Pomeras se sa WASD tasterima. Svako moze da se krece levo, desno, gore, dole ali ne
+i dijagonalno.
+Lich moze da puca dijagonalno! Ostali napadaju kao sto se i krecu.
+Kada se neko pomeri na mesto gde se ti nalazis, umires.
+Ako upadnes u rupu, umires.
+Kada umres, kraj je igre.
+Nadam se da neces umreti.
+
+[Pritisni ENTER da se vratis....]

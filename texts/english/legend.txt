@@ -1,0 +1,31 @@
+@ - this is you, the player
+
+Objects:
+--------
+# - this is wall, you cannot pass over it.
+* - this is empty space; empty tile.
+U - level entrance, you start here.
+I - level exit, you need to get here to go to another level. Also you get 1 point.
+O - hole in the ground; passable but there is always a chance to fall down (death).
+    That chance is greater if monster is chasing you.
+B - treasure chest; you get +1 point for opening it.
+
+Enemies:
+--------
+z - stupid zombie; view radius 2 tiles; chases you 5 rounds then pauses 1 round.
+Z - less stupid zombie view radius 4 tiles; chases you 10 rounds then pauses 1 round.
+L - litch; view radius 8 tiles; shoot radius 7 tiles; chases you forever.
+    Can shoot in every direction. Can move like everybody else.
+    When litch shoots at you, there is possibility that you dodge his attack.
+    
+Game Mechanic:
+--------------
+You can move with WASD. Everyone can move: left, right, up, down, but not diagonally.
+Lich can shoot diagonally! Others just attack like they move.
+When someone moves to your tile, you die.
+When you fall in hole, you die.
+When you die, it's game over.
+Please don't die.
+
+
+[Press ENTER to go back....]
