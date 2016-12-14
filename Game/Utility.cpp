@@ -1,8 +1,8 @@
 #include "Utility.h"
-
 #include <iostream>
 #include <fstream>
 #include <string>
+
 using namespace std;
 
 
@@ -28,4 +28,9 @@ void Utility::ParseText(int (&matrix)[MAX_MATRIX_WIDTH][MAX_MATRIX_HEIGHT], stri
 			matrix[MAX_MATRIX_WIDTH][MAX_MATRIX_HEIGHT] = MATRIX_UNINITIALIZED_VALUE;
 		}
 	}
+}
+
+bool Utility::checkFileOrFolderExistance(string relativePath) {
+
+	return  true;
 }

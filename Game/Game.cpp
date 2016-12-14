@@ -82,7 +82,10 @@ void Game::parseInput(string input)
 
 bool Game::initialize() {
 
-	m_textFiles[MAX_GAME_FILES] = {
+	// C++ 11 added initialization lists to allow the following syntax:
+	// std::vector<std::string> v = { "Hello", "World" };
+
+	m_textFiles = {
 		"choose_language.txt",
 		"command_input.txt",
 		"game_name.txt",
@@ -94,7 +97,11 @@ bool Game::initialize() {
 		"high_score.txt",
 		"legend.txt"
 	};
+
 	m_serbianTextFilePath = "..\\texts\\serbian\\";
 	m_englishTextFilePath = "..\\texts\\english\\";
 	m_levelsFilePath = "..\\levels\\";
+
+	// TODO : implement later
+	return true;
 }

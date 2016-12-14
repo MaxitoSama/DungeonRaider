@@ -1,6 +1,5 @@
 #include <string>
-
-#define MAX_GAME_FILES 1000
+#include <vector>
 
 enum SceneType
 {
@@ -32,7 +31,7 @@ private:
 	SceneType m_activeScene;
 	Game();
 
-	std::string m_textFiles[MAX_GAME_FILES];
+	std::vector<std::string> m_textFiles;
 	std::string m_serbianTextFilePath;
 	std::string m_englishTextFilePath;
 	std::string m_levelsFilePath;

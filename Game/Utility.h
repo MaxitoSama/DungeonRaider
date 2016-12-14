@@ -13,4 +13,5 @@ class Utility
 public:
 	static void ParseText(string &line, string fileName);
 	static void ParseText(int (&matrix)[MAX_MATRIX_WIDTH][MAX_MATRIX_HEIGHT], string fileName);
+	static bool checkFileOrFolderExistance(string relativePath);
 };
